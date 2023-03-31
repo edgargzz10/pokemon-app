@@ -1,16 +1,26 @@
 <script setup>
-import { storeToRefs } from 'pinia';
-import { useCounterStore } from '../store/counter';
 
-const useCounter = useCounterStore()
 
-const {increment} = useCounter
-
-const {count, double} =storeToRefs(useCounter)
 </script>
 
 <template>
-  <h1>Home counter: {{ count }}</h1>
-  <h2>Double: {{ double }}</h2>
-  <button @click="increment">Increment</button>
+  <h1>POKE-API</h1>
+  <img src="../../public/pokemon2.png" alt="">
 </template>
+
+
+<style scoped>
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>

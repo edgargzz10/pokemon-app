@@ -25,3 +25,18 @@ getData("https://pokeapi.co/api/v2/pokemon/");
     </div>
 </div>
 </template>
+
+
+<style scoped>
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+li {
+  
+  font-family: 'Press Start 2P', cursive;
+}
+
+</style>

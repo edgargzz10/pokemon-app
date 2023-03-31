@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from "vue-router";
      
       <router-link class="navbar-brand" to="/">
         <img
-          src="@/assets/logo.svg"
+          src="@/assets/pikachu-01.svg"
           alt="Logo"
           width="30"
           height="24"

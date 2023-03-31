@@ -64,3 +64,18 @@ const moves = data?.moves?.map((move) => move.move.name).join(", ");
   <button @click="pokeList" class="btn btn-outline-primary me-4">Go to the list</button>
   <button @click="pokeSearch" class="btn btn-outline-primary">Return to Search</button>
 </template>
+
+
+<style scoped>
+h1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+
+h4 {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Press Start 2P", cursive;
+}
+</style>
